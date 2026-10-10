@@ -7,7 +7,7 @@ st.set_page_config(page_title="SarkarSetu", page_icon="🌉", layout="wide")
 
 @st.cache_resource
 def load():
-    return joblib.load("models/Random_Forest.pkl"), joblib.load("models/columns.pkl")
+    return joblib.load("models/Random_Forest (1) .pkl"), joblib.load("models/columns.pkl")
 
 @st.cache_data
 def load_data():
